@@ -79,7 +79,7 @@ Example:
 		"properNoun": "apple"
 	}
 
-##GET  /api/dictionary?word=apple&partOfSpeech=noun
+### GET  /api/dictionary?word=apple&partOfSpeech=noun
 	
 	{
 		"isValidWord": true,
@@ -90,7 +90,7 @@ Example:
 		"error": false
 	}
 
-##GET  /api/dictionary?word=llllll&partOfSpeech=preposition
+### GET  /api/dictionary?word=llllll&partOfSpeech=preposition
 
 	{
 		"isValidWord": false,
@@ -100,14 +100,14 @@ Example:
 		"errorId": "404"
 	}
 
-##GET  /api/synonyms?word=model&partOfSpeech=noun
+### GET  /api/synonyms?word=model&partOfSpeech=noun
 
 	{
 		"wordSynonyms": ["miniature", "standard"],
 		"error": false
 	}
 
-##GET  /api/properNoun?word=model
+### GET  /api/properNoun?word=model
 
 	{
 		"shortDefinition": "A system or thing used as an example to follow or imitate.",
