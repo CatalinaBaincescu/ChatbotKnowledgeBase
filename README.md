@@ -6,9 +6,11 @@
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
 	1. Define a schema (question and answer)
-	2. Define a schema for synonyms
-	3. Define the endpoints for dictionary
+	2. Define a schema for words
+	3. Define the endpoints for words
 	4. Define the endpoints for question and answer
+	5. Introduce more data to db
+	6. Use a module to determine if the word is valid in english and to get the word synonyms
 	
 
 #Collection Q&A
@@ -77,7 +79,7 @@ Example:
 		"properNoun": "apple"
 	}
 
-<b>GET  /api/dictionary?word=apple&partOfSpeech=noun</b>
+##GET  /api/dictionary?word=apple&partOfSpeech=noun
 	
 	{
 		"isValidWord": true,
@@ -88,7 +90,7 @@ Example:
 		"error": false
 	}
 
-<b>GET  /api/dictionary?word=llllll&partOfSpeech=preposition</b>
+##GET  /api/dictionary?word=llllll&partOfSpeech=preposition
 
 	{
 		"isValidWord": false,
@@ -98,14 +100,14 @@ Example:
 		"errorId": "404"
 	}
 
-<b>GET  /api/synonyms?word=model&partOfSpeech=noun</b>
+##GET  /api/synonyms?word=model&partOfSpeech=noun
 
 	{
 		"wordSynonyms": ["miniature", "standard"],
 		"error": false
 	}
 
-<b>GET  /api/properNoun?word=model</b>
+##GET  /api/properNoun?word=model
 
 	{
 		"shortDefinition": "A system or thing used as an example to follow or imitate.",
