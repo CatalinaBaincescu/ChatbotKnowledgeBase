@@ -1,8 +1,9 @@
 
+# Chatbot Knowledge Base
 
 <b>Chatbot Knowledge Base</b>
 
-Team members: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
+__Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
 	1. Define a schema (question and answer)
 	2. Define a schema for synonyms
@@ -10,7 +11,7 @@ Team members: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, 
 	4. Define the endpoints for question and answer
 	
 
-Collection Q&A
+#Collection Q&A
 	
 	{
 		"title": " Question and answer",
@@ -33,7 +34,7 @@ Example:
 	}
 
 
-Collection Word
+#Collection Word
 
 	{
 		"title": " Word",
@@ -76,7 +77,7 @@ Example:
 		"properNoun": "apple"
 	}
 
-GET  /api/dictionary?word=apple&partOfSpeech=noun
+<b>GET  /api/dictionary?word=apple&partOfSpeech=noun</b>
 	
 	{
 		"isValidWord": true,
@@ -87,7 +88,7 @@ GET  /api/dictionary?word=apple&partOfSpeech=noun
 		"error": false
 	}
 
-GET  /api/dictionary?word=llllll&partOfSpeech=preposition
+<b>GET  /api/dictionary?word=llllll&partOfSpeech=preposition</b>
 
 	{
 		"isValidWord": false,
@@ -97,14 +98,14 @@ GET  /api/dictionary?word=llllll&partOfSpeech=preposition
 		"errorId": "404"
 	}
 
-GET  /api/synonyms?word=model&partOfSpeech=noun
+<b>GET  /api/synonyms?word=model&partOfSpeech=noun</b>
 
 	{
 		"wordSynonyms": ["miniature", "standard"],
 		"error": false
 	}
 
-GET  /api/properNoun?word=model
+<b>GET  /api/properNoun?word=model</b>
 
 	{
 		"shortDefinition": "A system or thing used as an example to follow or imitate.",
