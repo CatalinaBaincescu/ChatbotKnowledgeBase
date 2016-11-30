@@ -76,7 +76,7 @@ Example:
 			"The round fruit of a tree of the rose family, which typically has thin green or red skin and crisp flesh.",
 			"Used in names of unrelated fruits or other plant growths that resemble apples in some way, e.g. custard apple, oak apple."
 		]
-		"properNoun": "apple"
+		"wordSynonyms": []
 	}
 
 ### GET  /api/dictionary?word=apple&partOfSpeech=noun
