@@ -10,7 +10,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 	3. Define the endpoints for words
 	4. Define the endpoints for question and answer
 	5. Introduce more data to db
-	6. Use a module to determine if the word is valid in english and to get the word synonyms
+	6. Use a module to determine if the word is valid in english and to get the word's synonyms
 	
 
 #Collection Q&A
@@ -31,7 +31,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 Example: 
 
 	{
-		"question": "How is Albert Einstein?",
+		"question": "Who is Albert Einstein?",
 		"answer": "Albert Einstein was a German-born physicist who developed the general theory of relativity, among other feats. He is considered the most influential physicist of the 20th century."
 	}
 
