@@ -24,6 +24,12 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 			},
 			"answer": {
 				"type": "string"
+			},
+			"keyWords": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
 			}
 		}
 	}
