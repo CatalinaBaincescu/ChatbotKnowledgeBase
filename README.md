@@ -1,6 +1,6 @@
 
 
-Chatbot Knowledge Base
+<b>Chatbot Knowledge Base</b>
 
 Team members: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
