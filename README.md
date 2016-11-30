@@ -26,6 +26,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 				"type": "string"
 			},
 			"keyWords": {
+				"description":"Keywords extracted from question",
 				"type": "array",
 				"items": {
 					"type": "string"
@@ -38,7 +39,8 @@ Example:
 
 	{
 		"question": "Who is Albert Einstein?",
-		"answer": "Albert Einstein was a German-born physicist who developed the general theory of relativity, among other feats. He is considered the most influential physicist of the 20th century."
+		"answer": "Albert Einstein was a German-born physicist who developed the general theory of relativity, among other feats. He is considered the most influential physicist of the 20th century.",
+		"keywords":["Albert", "Einstein"]
 	}
 
 
